@@ -1,0 +1,33 @@
+# 🛒 Smart E-commerce Store API
+
+A high-performance, lightweight RESTful API built with **FastAPI** and **SQLite** for managing e-commerce products. Features full CRUD operations, category filtering, product search, and automated store statistics.
+
+---
+
+## 🌟 Key Features
+
+* ⚡ **Fast & Modern**: Powered by FastAPI for quick responses and interactive docs.
+* 📦 **Full CRUD Support**: Complete Create, Read, Update, and Delete endpoints.
+* 💾 **Data Persistence**: Uses SQLite to store products safely without heavy server setups.
+* 🔍 **Smart Search**: Search products dynamically by keywords.
+* 📊 **Analytics Endpoint**: Get live data like total product count, average price, highest/lowest price.
+* 🛡️ **Validation**: Automatic request validation using **Pydantic**.
+* 📖 **Interactive Docs**: Built-in Swagger UI for easy API testing.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Language**: Python 3.x
+* **Framework**: FastAPI
+* **Database**: SQLite3
+* **Server**: Uvicorn
+
+---
+
+## 🚀 Getting Started
+
+### 1. Requirements
+Ensure you have Python installed, then install the dependencies:
+```bash
+pip install fastapi uvicorn
